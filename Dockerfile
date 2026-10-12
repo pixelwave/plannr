@@ -16,6 +16,7 @@ WORKDIR /app
 COPY --from=build /src/apps/web/dist /app/public
 COPY --from=build /src/apps/mobile/dist /app/public/mobile
 COPY server /app/server
+COPY LICENSE COPYRIGHT /app/
 ENV PLANNR_DATA=/data
 ENV PLANNR_STATIC=/app/public
 ENV PORT=8080

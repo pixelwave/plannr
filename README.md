@@ -25,3 +25,22 @@ The compose file builds from `https://github.com/pixelwave/plannr.git#main` and 
 A new container starts empty. The image does not contain any calendars.
 
 Calendars are stored in the `plannr-data` volume. When you update the image, keep that volume. The calendars already there stay. Remove the volume only when you want an empty calendar again.
+
+## License
+
+PLANNR is free software under the GNU Affero General Public License,
+version 3 only. See `LICENSE` and `COPYRIGHT`.
+
+You can download it and run it for yourself, and a company can run it
+for its own planning. If you modify PLANNR and let other people use that
+modified version over a network, the AGPL requires you to offer them the
+corresponding source.
+
+A calendar you export, including a `.plannr` file, is your data. The
+license applies to the program, not to your calendars.
+
+The corresponding source for an official container tag is the git tag
+that built it.
+
+Contributions are welcome under `CLA.md`. See `CONTRIBUTING.md`.
+
