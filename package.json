@@ -1,0 +1,15 @@
+{
+  "name": "plannr",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "apps/mobile",
+    "packages/theme"
+  ],
+  "scripts": {
+    "build": "npm run build -w @plannr/web && npm run build -w @plannr/mobile"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

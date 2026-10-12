@@ -1,0 +1,10 @@
+node_modules
+**/node_modules
+versions
+mobile-versions
+lab-data
+data
+_screenshots
+.git
+*.md
+server/*.test.mjs

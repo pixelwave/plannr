@@ -1,0 +1,13 @@
+services:
+  plannr:
+    build: .
+    image: plannr:v1.0
+    container_name: plannr
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    volumes:
+      - plannr-data:/data
+
+volumes:
+  plannr-data:
