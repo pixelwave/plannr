@@ -26,6 +26,20 @@ A new container starts empty. The image does not contain any calendars.
 
 Calendars are stored in the `plannr-data` volume. When you update the image, keep that volume. The calendars already there stay. Remove the volume only when you want an empty calendar again.
 
+## Version history
+
+Newer releases are added above. Each one is also published on the Releases page.
+
+### v1.0
+
+- First public release. Install by building this repository. A published container image is not available yet.
+- One address serves both apps. A computer gets the desktop year view. A phone or tablet gets the mobile app.
+- Desktop focus is month, week, or day, with Center and Today. Content zoom, theme, undo, and redo are included.
+- Projects can be created, browsed, imported, and exported as `.plannr` files. The calendar range can be edited.
+- A new container starts with an empty calendar named Unnamed Calendar, covering this year and the next, opened at month zoom on today.
+- Calendars stay in the `plannr-data` volume when the image is updated.
+- The mobile app shows what is in motion now, and can open the desktop app.
+
 ## License
 
 PLANNR is free software under the GNU Affero General Public License,
