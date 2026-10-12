@@ -1,6 +1,8 @@
 services:
   plannr:
-    build: .
+    build:
+      context: https://github.com/pixelwave/plannr.git#main
+      dockerfile: Dockerfile
     image: plannr:v1.0
     container_name: plannr
     restart: unless-stopped
