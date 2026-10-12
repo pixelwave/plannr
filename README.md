@@ -2,6 +2,8 @@
 
 Run PLANNR with Docker.
 
+→ [plannr.p-wave.de](https://plannr.p-wave.de/)
+
 ## Arcane
 
 1. Add `https://github.com/pixelwave/plannr.git` as a Git repository. It is public, so no login is required.
